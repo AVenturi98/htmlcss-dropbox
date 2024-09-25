@@ -29,10 +29,14 @@ a {
     gap: 20px;
 }
 
-.cta, .cta-b {
+.cta {
     background-color: #0061FF;
     color: white;
     padding: 10px 15px;
+}
+
+.cta:hover {
+    font-size: 90%;
 }
 
 /* LAYOUT 1 */
@@ -43,7 +47,7 @@ a {
 .container {
     display: flex;
     flex-wrap: wrap;
-    margin:auto 350px;
+    margin: auto 350px;
 }
 
 .row {
@@ -51,10 +55,14 @@ a {
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
-    margin: 80px auto
+    margin: 80px auto;
 }
 
 .col-full {
+    width: 100%;
+}
+
+.block-fs {
     padding-bottom: 30px;
     font-size: 80px;
 }
@@ -78,7 +86,101 @@ a {
     font-size: 30px;
 }
 
+.cta-ann {
+    text-decoration: underline;
+}
+
+.cta-ann:hover {
+    color: rgb(104, 104, 3);
+}
+
 .arrow {
     font-size: 30px;
     margin-bottom: 0;
+}
+
+/* LAYOUT 2 */
+
+.boxing {
+    margin: auto 450px;
+}
+
+.section--2 {
+    gap: 60px;
+    margin-left: auto 0;
+}
+
+.title-layout-2 {
+    font-size: 50px;
+    padding-bottom: 60px;
+}
+
+.bill-radio {
+    font-size: 20px;
+    padding-right: 20px;
+}
+
+.col-3 {
+    width: 30%;
+    border: 1px solid black;
+    text-align: center;
+    height: 950px;
+    line-height: 2em;
+}
+
+.head-col {
+    border-bottom: 1px solid black;
+    padding: 5px;
+    text-align: center;
+}
+
+.main-col {
+    padding: 5px;
+}
+
+.main--2{
+    padding-bottom: 20px;
+}
+
+.sc-chance {
+    padding-top: 20px;
+}
+
+.buynow {
+    color: blue;
+}
+
+.buynow:hover {
+    text-decoration: underline;
+}
+
+hr {
+    width: 40%;
+    margin: 30px 0;
+}
+
+.block-sc {
+    border: 1px solid black;
+    height: 250px;
+    line-height: 2em;
+    position: relative;
+}
+
+.main-col-full {
+    padding: 30px
+}
+
+.title-figure-4 {
+    font-size: 30px;
+    padding-bottom: 15px;
+}
+
+.mini-title-figure-4 {
+    padding-bottom: 30px
+}
+
+.cta-c {
+    position: absolute;
+    right: 30px;
+    top: 70px;
 }
