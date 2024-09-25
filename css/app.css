@@ -103,6 +103,10 @@ a {
     margin-bottom: 0;
 }
 
+.arrow:hover {
+    font-size: 300%
+}
+
 /* LAYOUT 2 */
 
 .boxing {
