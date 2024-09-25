@@ -29,9 +29,56 @@ a {
     gap: 20px;
 }
 
-.cta {
+.cta, .cta-b {
     background-color: #0061FF;
     color: white;
     padding: 10px 15px;
 }
 
+/* LAYOUT 1 */
+.layout-1 {
+    background-color: #B4D0E7;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    margin:auto 350px;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin: 80px auto
+}
+
+.col-full {
+    padding-bottom: 30px;
+    font-size: 80px;
+}
+
+.col-l {
+    width: 400px; 
+    margin-bottom: 0;   
+}
+
+.col-r img{
+    width: 100%;
+}
+
+.text{
+    font-size: 30px;
+    padding-bottom: 60px;
+}
+
+.btn-lay-1, .cta-ann {
+    padding-bottom: 45px;
+    font-size: 30px;
+}
+
+.arrow {
+    font-size: 30px;
+    margin-bottom: 0;
+}
