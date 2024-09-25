@@ -1,0 +1,37 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+ul, li {
+    list-style: none;
+}
+
+a {
+    color: currentColor;
+    text-decoration: none;
+}
+
+/* HEADER */
+
+.navbar {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px;
+    color: gray;
+}
+
+.navmain {
+    display: flex;
+    gap: 20px;
+}
+
+.cta {
+    background-color: #0061FF;
+    color: white;
+    padding: 10px 15px;
+}
+
