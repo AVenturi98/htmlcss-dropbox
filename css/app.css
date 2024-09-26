@@ -33,10 +33,22 @@ a {
     gap: 20px;
 }
 
+.navmain > li :hover {
+    color: black;
+    text-decoration: underline;
+}
+
+.navmain > li :nth-child(7) {
+    text-decoration: none;
+}
+
 .cta {
+    padding: 10px 15px;
+}
+
+.cta-fs, .cta-b, .cta-c {
     background-color: #0061FF;
     color: white;
-    padding: 10px 15px;
 }
 
 .cta:hover {
@@ -54,12 +66,15 @@ a {
     margin: auto 350px;
 }
 
+.topping {
+    padding-top: 80px;
+}
+
 .row {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
-    margin: 80px auto;
 }
 
 .col-full {
@@ -72,8 +87,7 @@ a {
 }
 
 .col-l {
-    width: 400px; 
-    margin-bottom: 0;   
+    width: 400px;    
 }
 
 .col-r img{
@@ -132,7 +146,7 @@ a {
     width: 30%;
     border: 1px solid black;
     text-align: center;
-    height: 950px;
+    min-height: 950px;
     line-height: 2em;
 }
 
@@ -142,16 +156,20 @@ a {
     text-align: center;
 }
 
-.main-col {
-    padding: 5px;
-}
-
 .main--2{
     padding-bottom: 20px;
 }
 
 .sc-chance {
     padding-top: 20px;
+}
+
+.space {
+    padding-top: 30px
+}
+
+.check {
+    color: #0061FF;
 }
 
 .buynow {
@@ -192,3 +210,39 @@ hr {
     right: 30px;
     top: 70px;
 }
+
+/* LAYOUT 3 */
+
+.top-iced {
+    margin-top: 150px;
+}
+
+.img-part {
+    width: 600px;
+    height: 500px;
+}
+
+.block-td {
+    flex-direction: row-reverse;
+}
+
+.section--3 {
+    gap: 130px;
+}
+
+.text--3 {
+    padding: 40px 0;
+    font: 25px;
+}
+
+.cta-d {
+    border: 2px solid black;
+}
+
+.cta-d:hover {
+    background-color: #B4D0E7;
+}
+
+
+
+
