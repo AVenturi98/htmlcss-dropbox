@@ -2,6 +2,10 @@ html {
     font-family: "Poppins", sans-serif;
 }
 
+body {
+    max-width: 1920;
+}
+
 * {
     box-sizing: border-box;
     margin: 0;
@@ -16,6 +20,7 @@ a {
     color: currentColor;
     text-decoration: none;
 }
+
 
 /* HEADER */
 
@@ -63,11 +68,11 @@ a {
 .container {
     display: flex;
     flex-wrap: wrap;
-    margin: auto 350px;
 }
 
-.topping {
+.hero {
     padding-top: 80px;
+    margin: auto 350px;
 }
 
 .row {
@@ -132,7 +137,7 @@ a {
     margin-left: auto 0;
 }
 
-.title-layout-2 {
+.title-layout-full {
     font-size: 50px;
     padding-bottom: 60px;
 }
@@ -142,16 +147,19 @@ a {
     padding-right: 20px;
 }
 
+.col-3, .block-sc {
+    border: 1px solid rgb(190, 190, 190);
+}
+
 .col-3 {
     width: 30%;
-    border: 1px solid black;
     text-align: center;
     min-height: 950px;
     line-height: 2em;
 }
 
 .head-col {
-    border-bottom: 1px solid black;
+    border-bottom: 1px solid rgb(190, 190, 190);
     padding: 5px;
     text-align: center;
 }
@@ -162,10 +170,6 @@ a {
 
 .sc-chance {
     padding-top: 20px;
-}
-
-.space {
-    padding-top: 30px
 }
 
 .check {
@@ -186,7 +190,6 @@ hr {
 }
 
 .block-sc {
-    border: 1px solid black;
     height: 250px;
     line-height: 2em;
     position: relative;
@@ -218,8 +221,7 @@ hr {
 }
 
 .img-part {
-    width: 600px;
-    height: 500px;
+    max-height: 500px;
 }
 
 .block-td {
@@ -243,6 +245,52 @@ hr {
     background-color: #B4D0E7;
 }
 
+/* LAYOUT 4 */
+
+.hero--6 {
+    justify-content: space-between;
+}
+
+.section--4 {
+    gap: 50px;
+}
+
+.col-6 {
+    width: calc(100% / 4);
+    padding: 15px;
+    margin: 0;
+}
+
+.capture img {
+        width: 100%;
+}
 
 
+/*  LAYOUT 5 */
 
+.cta-ad {
+    color: blue;
+}
+
+/* LAYOUT 6 */
+
+.col-block {
+    width: 33%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.block-img {
+    max-width: 300px;
+    padding: 50px;
+}
+ .center-block {
+    padding: 100px;
+    background-color: rgb(236, 236, 236)
+ }
+
+ .text-box {
+    padding: 30px 0;
+ }
