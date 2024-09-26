@@ -94,9 +94,6 @@ a {
 .col-l {
     width: 35%;    
 }
-.col-r {
-    width: 60%;
-}
 
 .col-r img{
     width: 100%;
@@ -302,6 +299,7 @@ hr {
  }
 
  /* LAYOUT 7 */
+ 
 .layout-7 {
     background-color: #B4D0E7;
 }
@@ -324,3 +322,32 @@ hr {
     background-color: white;
  }
 
+/* LAYOUT 8 */
+
+.faq {
+    font-size: 30px;
+}
+
+.faq-aw {
+    padding-left: 200px;
+}
+
+
+/* FOOTER */
+
+footer {
+    background-color: black;
+    color: white;
+
+    margin-top: 150px;
+}
+
+.col-info {
+    width: calc(100% / 5);
+}
+
+select {
+    background-color: black;
+    border: none;
+    color: white
+}
