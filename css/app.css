@@ -43,8 +43,8 @@ a {
     text-decoration: underline;
 }
 
-.navmain > li :nth-child(7) {
-    text-decoration: none;
+.navmain > li > .btn:nth-child(8) {
+    text-decoration: line-through;
 }
 
 .cta {
@@ -65,7 +65,7 @@ a {
     background-color: #B4D0E7;
 }
 
-.container {
+.container, .hero--7 {
     display: flex;
     flex-wrap: wrap;
 }
@@ -295,8 +295,4 @@ hr {
     padding: 30px 0;
  }
 
- /* LAYOUT 7 */
-
- .col-50 {
-    width: 45%;
- }
+ 
