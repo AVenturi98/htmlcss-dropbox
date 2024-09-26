@@ -294,3 +294,9 @@ hr {
  .text-box {
     padding: 30px 0;
  }
+
+ /* LAYOUT 7 */
+
+ .col-50 {
+    width: 45%;
+ }
