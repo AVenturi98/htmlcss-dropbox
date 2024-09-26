@@ -92,7 +92,10 @@ a {
 }
 
 .col-l {
-    width: 400px;    
+    width: 35%;    
+}
+.col-r {
+    width: 60%;
 }
 
 .col-r img{
@@ -149,13 +152,13 @@ a {
 
 .col-3, .block-sc {
     border: 1px solid rgb(190, 190, 190);
+    line-height: 2em;
 }
 
 .col-3 {
     width: 30%;
     text-align: center;
     min-height: 950px;
-    line-height: 2em;
 }
 
 .head-col {
@@ -276,6 +279,9 @@ hr {
 
 .col-block {
     width: 33%;
+}
+
+.box-block {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
@@ -295,4 +301,4 @@ hr {
     padding: 30px 0;
  }
 
- 
+
